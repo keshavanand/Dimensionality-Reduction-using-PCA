@@ -73,7 +73,7 @@ We applied **Kernel PCA** using three different kernels:
 The projections of the data after applying kPCA with different kernels were plotted:
 
 -   **Linear kernel**: Preserves linear structures but struggled with the dataset's nonlinearity. ![Linear Kernel PCA](https://github.com/keshavanand/Dimensionality-Reduction-using-PCA/blob/main/images/linear%20keneral.png?raw=true)
--   **RBF kernel**: Successfully unraveled the Swiss Roll, projecting it into a meaningful 2D plane that clearly separated the rolled sections.![RBF Kernel PCA]([https://github.com/keshavanand/Dimensionality-Reduction-using-PCA/blob/main/images/sigmod.png?raw=true](https://github.com/keshavanand/Dimensionality-Reduction-using-PCA/blob/main/images/rbf.png?raw=true))
+-   **RBF kernel**: Successfully unraveled the Swiss Roll, projecting it into a meaningful 2D plane that clearly separated the rolled sections.![RBF Kernel PCA](https://github.com/keshavanand/Dimensionality-Reduction-using-PCA/blob/main/images/rbf.png?raw=true)
 -   **Sigmoid kernel**: Did not perform as well as RBF and was unable to capture the complexity of the dataset.![Sigmoid Kernel PCA](https://github.com/keshavanand/Dimensionality-Reduction-using-PCA/blob/main/images/sigmod.png?raw=true)
 
 **5\. Apply Logistic Regression and Tune Parameters Using GridSearchCV**
