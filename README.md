@@ -11,8 +11,7 @@ We retrieved the **MNIST\_784** dataset consisting of **70,000 images** of handw
 
 Each digit was successfully visualized using **Matplotlib**, where each digit (0-9) from the dataset was plotted as a 28x28 grayscale image.
 
-![A number set of numbers
-Description automatically generated with medium confidence](file:///C:/Users/arshd/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+![All digits](https://github.com/keshavanand/Dimensionality-Reduction-using-PCA/blob/main/images/all%20digits.png?raw=true)
 
 **3\. PCA and Principal Components**
 
