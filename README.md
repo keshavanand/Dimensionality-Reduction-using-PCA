@@ -26,7 +26,7 @@ These two components capture approximately **16.91%** of the variance in the dat
 
 We projected the data onto the first two principal components and plotted the resulting projections onto a **1D hyperplane**. The distribution of digits along these two components was visualized, showing clustering based on the digit labels.
 
-![1D Projections on the Principal Components](file:///C:/Users/arshd/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
+![1D Projections on the Principal Components](https://github.com/keshavanand/Dimensionality-Reduction-using-PCA/blob/main/images/scatter%20plot%20for%20pc1%20and%20pc2.png?raw=true)
 
 **5\. Incremental PCA to Reduce Dimensionality**
 
@@ -36,8 +36,7 @@ Using **Incremental PCA**, we reduced the dimensionality of the dataset down to 
 
 The original digits were compared with their compressed representations. The compressed digits retained their recognizable structure despite the reduction in dimensions, confirming the efficiency of PCA for this task.
 
-![A number written in black
-Description automatically generated with medium confidence](file:///C:/Users/arshd/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)
+![Original VS Reconstructed](https://github.com/keshavanand/Dimensionality-Reduction-using-PCA/blob/main/images/original%20vs%20reconstructed%20images.png?raw=true)
 
 **Challenges and Solutions \[15 points\]**
 
@@ -59,8 +58,7 @@ The **Swiss Roll** dataset was generated using Scikit-learn’s make\_swiss\_rol
 
 The dataset was plotted in 3D, revealing the classic Swiss Roll structure: a spiral shape unrolled in 3D space.
 
-![A graph of a graph with dots
-Description automatically generated with medium confidence](file:///C:/Users/arshd/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png)
+![Swiss-roll dataset](https://github.com/keshavanand/Dimensionality-Reduction-using-PCA/blob/main/images/swissroll.png?raw=true)
 
 **3\. Apply Kernel PCA (kPCA) with Different Kernels**
 
@@ -74,12 +72,9 @@ We applied **Kernel PCA** using three different kernels:
 
 The projections of the data after applying kPCA with different kernels were plotted:
 
--   **Linear kernel**: Preserves linear structures but struggled with the dataset's nonlinearity. ![A colorful circle with text
-    Description automatically generated with medium confidence](file:///C:/Users/arshd/AppData/Local/Temp/msohtmlclip1/01/clip_image010.png)
--   **RBF kernel**: Successfully unraveled the Swiss Roll, projecting it into a meaningful 2D plane that clearly separated the rolled sections.![A diagram of a triangle with different colored dots
-    Description automatically generated](file:///C:/Users/arshd/AppData/Local/Temp/msohtmlclip1/01/clip_image012.png)
--   **Sigmoid kernel**: Did not perform as well as RBF and was unable to capture the complexity of the dataset.![A diagram of a colorful circle
-    Description automatically generated with medium confidence](file:///C:/Users/arshd/AppData/Local/Temp/msohtmlclip1/01/clip_image014.png)
+-   **Linear kernel**: Preserves linear structures but struggled with the dataset's nonlinearity. ![Linear Kernel PCA](https://github.com/keshavanand/Dimensionality-Reduction-using-PCA/blob/main/images/linear%20keneral.png?raw=true)
+-   **RBF kernel**: Successfully unraveled the Swiss Roll, projecting it into a meaningful 2D plane that clearly separated the rolled sections.![RBF Kernel PCA]([https://github.com/keshavanand/Dimensionality-Reduction-using-PCA/blob/main/images/sigmod.png?raw=true](https://github.com/keshavanand/Dimensionality-Reduction-using-PCA/blob/main/images/rbf.png?raw=true))
+-   **Sigmoid kernel**: Did not perform as well as RBF and was unable to capture the complexity of the dataset.![Sigmoid Kernel PCA](https://github.com/keshavanand/Dimensionality-Reduction-using-PCA/blob/main/images/sigmod.png?raw=true)
 
 **5\. Apply Logistic Regression and Tune Parameters Using GridSearchCV**
 
@@ -93,8 +88,7 @@ Using **RBF kernel** in kPCA, we applied **Logistic Regression** for classificat
 
 **6\. Plot GridSearchCV Results**
 
-The results of GridSearchCV were visualized, showing the best hyperparameters and their impact on classification accuracy.![A graph with dots and numbers
-Description automatically generated](file:///C:/Users/arshd/AppData/Local/Temp/msohtmlclip1/01/clip_image016.png)
+The results of GridSearchCV were visualized, showing the best hyperparameters and their impact on classification accuracy.![Grid_Search PCA](https://github.com/keshavanand/Dimensionality-Reduction-using-PCA/blob/main/images/gridsearch%20plot.png?raw=true)
 
 **Challenges and Solutions**
 
